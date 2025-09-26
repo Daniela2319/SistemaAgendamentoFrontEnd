@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema Agendamento - Cadastrar Serviço</title>
+  <link rel="stylesheet" href="../../../reset.css">
+  <link rel="stylesheet" href="../../../styles.css">
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class="menu">
+        <li><a href="./../index.html">Home</a></li>
+        <li><a href="./servico-create.html">Cadastrar</a></li>
+        <li><a href="./../servico-list/servico-list.html">Listar</a></li>
+
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Cadastrar Serviços </h1>
+    <form>
+      <label>
+        <input type="text" name="nomeServico" placeholder="Digite o nome Serviço"></input>
+      </label><br>
+      <label>
+        <input type="text" name="descricao" placeholder="Digite o descrição"></input>
+      </label><br>
+      <input type="number" name="duracaoMinutos" id="duracaoMinutos" placeholder="Digite a duração em minutos"
+        required />
+      <label>
+        <input type="number" name="preco" id="preco" placeholder="Digite o preço" step="0.01" min="0" /><br>
+      </label>
+      <button type="submit">Salvar</button>
+      <button type="reset">Limpar</button>
+    </form>
+    <a href="./../index.html">Voltar</a>
+  </main>
+  <footer>
+    <p>&copy; 2025 - Sistema Agendamento</p>
+  </footer>
+  <script type="module" src="./servico-create.js"></script>
+</body>
+
+</html>

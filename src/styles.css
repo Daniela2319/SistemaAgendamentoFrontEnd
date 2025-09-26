@@ -65,7 +65,7 @@ form label {
 }
 
 /* Inputs e textarea */
-form input[type="text"],
+form input,
 form textarea {
   width: 100%;
   padding: 10px 12px;
