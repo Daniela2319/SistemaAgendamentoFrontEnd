@@ -95,6 +95,19 @@ form button:hover {
   background-color: #5e7869;
 }
 
+form select {
+  width: 100%;
+  padding: 10px 12px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #333;
+}
+
 /* Link de voltar */
 main a {
   display: inline-block;

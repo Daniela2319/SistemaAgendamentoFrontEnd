@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema Agendamento - Cadastrar Serviço Profissionais</title>
+  <link rel="stylesheet" href="../../../reset.css">
+  <link rel="stylesheet" href="../../../styles.css">
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class="menu">
+        <li><a href="./../index.html">Home</a></li>
+        <li><a href="./serviceProfessional-create.html">Cadastrar</a></li>
+        <li><a href="./../serviceProfessional-list/serviceProfessional-list.html">Listar</a></li>
+
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Cadastrar Serviços Profissionais </h1>
+    <form>
+      <label for="servicoId">Serviço:</label><br>
+      <select name="servicoId" id="servicoId" required>
+        <option value="">Selecione o serviço</option>
+
+      </select><br><br>
+
+      <label for="profissionalId">Profissional:</label><br>
+      <select name="profissionalId" id="profissionalId" required>
+        <option value="">Selecione o profissional</option>
+
+      </select><br><br>
+
+      <button type="submit">Salvar</button>
+      <button type="reset">Limpar</button>
+    </form>
+
+    <a href="./../index.html">Voltar</a>
+  </main>
+  <footer>
+    <p>&copy; 2025 - Sistema Agendamento</p>
+  </footer>
+  <script type="module" src="./serviceProfessional-create.js"></script>
+</body>
+
+</html>
