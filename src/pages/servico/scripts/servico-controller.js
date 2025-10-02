@@ -55,7 +55,7 @@ class ServicoController {
               <td>${servico.nomeServico}</td>
               <td>${servico.descricao}</td>
               <td>${this.converterParaMinutos(servico.duracaoMinutos)} min</td>
-              <td>${servico.preco.toFixed(2)}</td>
+              <td>R$ ${servico.preco.toFixed(2)}</td>
             `;
           tbory.appendChild(row);
         });
