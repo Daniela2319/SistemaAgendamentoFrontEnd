@@ -72,12 +72,6 @@ class ServiceProfessionalController {
                 serviceProfessional.servico.nomeServico || "Serviço indefinido"
               }</td>
               <td>${
-                serviceProfessional.servico.duracaoMinutos || "Sem duração"
-              }</td>
-              <td>R$ ${
-                serviceProfessional.servico.preco.toFixed(2) || "0.00"
-              }</td>
-              <td>${
                 serviceProfessional.profissional.nome ||
                 "Profissional indefinido"
               }</td>
